@@ -4,8 +4,8 @@
     public class StandardGradeBook : BaseGradeBook
     {
         // Constructor of the StandardGradeBook
-        public StandardGradeBook(string name)
-            : base(name)
+        public StandardGradeBook(string name, bool isWeighted)
+            : base(name, isWeighted)
         {
             Type = Enums.GradeBookType.Standard;
         }

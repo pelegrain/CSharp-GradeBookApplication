@@ -7,8 +7,8 @@ namespace GradeBook.GradeBooks
     public class RankedGradeBook : BaseGradeBook
     {
         // Constructor of the RankedGradeBook
-        public RankedGradeBook(string name)
-            : base(name)
+        public RankedGradeBook(string name, bool isWeighted)
+            : base(name, isWeighted)
         {
             Type = Enums.GradeBookType.Ranked;
         }
